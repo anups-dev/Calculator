@@ -45,8 +45,8 @@ footer{
 #calculator{
     width: 40%;
     height: auto;
-    margin: 50px auto;
-    padding: 20px;
+    margin:  auto;
+    padding: 1.25rem;
     background-color: #000;
     border-radius: 15px;
     box-shadow: 0 0 20px rgba(0,0,0,0.3);
@@ -54,16 +54,16 @@ footer{
 }
 #display-row{
     display: flex;
-    gap: 10px;
-    margin-bottom: 20px;
+    gap: 1.0rem;
+    margin-bottom: 1.25rem;
 }
 
 #display{
     flex: 1;
-    height: 80px;
+    height: 4rem;
     text-align: right;
-    padding: 15px;
-    font-size: 32px;
+    padding: 1.25rem;
+    font-size: 1.25rem;
     border: none;
     border-radius: 8px;
     background-color: #000;
@@ -73,13 +73,14 @@ footer{
 #buttons{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    gap: 0.5rem;
     width: 100%;
     height: auto;
 }
 .container{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 4rem;
+    margin-bottom: 1.25rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -87,8 +88,8 @@ footer{
 }
 .btn{
     width: 100%;
-    padding: 20px;
-    font-size: 24px;
+    padding: 1.25rem;
+    font-size: 1.25rem;
     border: none;
     border-radius: 8px;
     background-color: #333;
@@ -117,15 +118,15 @@ footer{
 #btn-C{
     background-color: #555;
     border-radius: 8px;
-    height: 80px;
+    height: 4rem;
     padding: 0;
     flex-shrink: 0;
-    width: 60px;
+    width: 4rem;
     font-weight: 600;
     cursor: pointer;
     border: none;
     color: white;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 #btn-C:hover{
     background-color: #777;
